@@ -1,0 +1,1 @@
+{"version":3,"sources":["prueba.js"],"names":["console","log","process","env","SECRET_TOKEN"],"mappings":";;AAAA;;AACAA,OAAO,CAACC,GAAR,CAAYC,OAAO,CAACC,GAAR,CAAYC,YAAxB","sourcesContent":["import 'dotenv/config';\r\nconsole.log(process.env.SECRET_TOKEN);"],"file":"prueba.dev.js"}
