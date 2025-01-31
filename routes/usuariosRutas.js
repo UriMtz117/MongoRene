@@ -5,6 +5,22 @@ import { mensajes } from "../libs/manejoErrores.js";
 
 const router = Router();
 
+router.get("/salir", async(req, res)=>{
+    res.send("Estas en salir");
+});
+
+router.get("/usuarios", async(req, res)=>{
+    res.send("Estas en usuarios");
+});
+
+router.get("/administradores", async(req, res)=>{
+    res.send("Estas en administradores");
+});
+
+router.get("/todos", async(req, res)=>{
+    res.send("Estas en todos");
+});
+
 // Registro de usuario
 router.post("/registro", async (req, res) => {
     const respuesta = await register(req.body);
